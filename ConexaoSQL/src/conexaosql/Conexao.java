@@ -28,7 +28,12 @@ public class Conexao {
             System.out.println(e);
             return null;
         }
-                 
+            /* criar método conectar e desconectar, 
+            ver https://www.youtube.com/watch?v=_Ke7CiTdmiI&list=PL-mvLy2ws8ILNrs8jtEAwaZMxDZvlMj48 
+            no minuto 2:52
+        
+               
+        */     
     }
     public static void main(String[] args) {
             Connection strConexao = Conexao.ConexaoBanco();
